@@ -1,0 +1,14 @@
+
+{
+  "name": "hasa-mart-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for HASA Online Mart",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "pino": "latest"
+  }
+}
