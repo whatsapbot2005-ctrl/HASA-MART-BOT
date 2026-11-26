@@ -1,14 +1,17 @@
 
 {
   "name": "hasa-mart-bot",
-  "version": "1.0.0",
-  "description": "WhatsApp bot for HASA Online Mart",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Official WhatsApp Cloud API Bot for HASA Online Mart",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "latest",
-    "pino": "latest"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
   }
 }
